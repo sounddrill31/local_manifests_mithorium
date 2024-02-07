@@ -14,7 +14,12 @@
 <remote  name="sounddrill31"
            fetch="https://github.com/sounddrill31"
            revision="a13/master" />
- <!-- Dependencies -->
+
+  <default fetch="https://github.com"
+           sync-c="true"
+           sync-j="4" /> 
+
+<!-- Dependencies -->
 
  <!-- Replacements -->
 
