@@ -54,7 +54,6 @@
   <project path="vendor/qcom/opensource/display" name="LineageOS/android_vendor_qcom_opensource_display" groups="qcom,pdk-qcom" remote="lineage"/>
   <!--<project path="vendor/qcom/opensource/commonsys-intf/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,pdk-qcom" remote="lineage"/>-->
     
-LineageOS/android_vendor_qcom_opensource_display
  <!-- Hardware - LA.UM.8.6.2 -->
   <project path="hardware/mithorium/display/LA.UM.8.6.2.r1-09500-89xx.0/display" name="android_hardware_qcom_display_mithorium" groups="device" remote="mi-thorium" revision="mithorium/LA.UM.8.6.2.r1-09500-89xx.0"/>
 
@@ -71,4 +70,7 @@ LineageOS/android_vendor_qcom_opensource_display
   <project path="device/xiaomi/MiThoriumSSI" name="android_device_xiaomi_MiThoriumSSI" groups="device" remote="sounddrill31" revision="a13/rom/arrow"/>
 on="a11/master"/>
 
+<!--Custom vendor-->
+    <remove-project name="android_vendor_arrow" />
+    <project name="android_vendor_arrow" path="vendor/arrow" remote="sounddrill31" revision="arrow-13.1" />
 </manifest>
